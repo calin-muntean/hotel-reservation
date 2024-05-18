@@ -22,8 +22,6 @@ import java.util.Optional;
 public class ReservationService {
     @Autowired
     private ReservationRepository reservationRepository;
-    @Autowired
-    private HotelRepository hotelRepository;
 
     @Autowired
     private MongoTemplate mongoTemplate;

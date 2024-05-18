@@ -26,7 +26,7 @@ public class Reservation {
 
 
 
-    // Getters and Setters
+
 
     public Reservation(int hotelId, int roomNumber, String userId, LocalDateTime checkInTime,LocalDateTime checkOutTime) {
         this.hotelId = hotelId;

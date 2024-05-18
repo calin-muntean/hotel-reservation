@@ -53,16 +53,7 @@ public class HotelService {
 
         return nearbyHotels;
     }
-//    public Optional<Room> getRoom(String id, int roomNumber) {
-//        Optional<Hotel> optionalHotel = hotelRepository.findById(Integer.valueOf(id));
-//        if (optionalHotel.isPresent()) {
-//            Hotel hotel = optionalHotel.get();
-//            return hotel.getRooms().stream()
-//                    .filter(room -> room.getRoomNumber() == roomNumber)
-//                    .findFirst();
-//        }
-//        return Optional.empty();
-//    }
+
 
 }
 

@@ -49,16 +49,5 @@ public class HotelController {
         return hotelService.findNearbyHotels(userLatMeters, userLonMeters, radiusInKm);
     }
 
-//    @GetMapping("/{hotelId}/rooms/{roomNumber}")
-//    public ResponseEntity<Room> getRoom(
-//            @PathVariable String hotelId,
-//            @PathVariable int roomNumber) {
-//        Optional<Room> room = hotelService.getRoom(hotelId, roomNumber);
-//        if (room.isPresent()) {
-//            return ResponseEntity.ok(room.get());
-//        } else {
-//            return ResponseEntity.notFound().build();
-//        }
-//    }
 
 }
